@@ -1,0 +1,99 @@
+.Table {    
+    margin: auto;
+    margin-top:5%; 
+    border-collapse: collapse;    
+}
+
+.WinnerMessage {
+    margin: auto;
+    font-size: 20px;  
+    margin-top: 10px;
+    width:250px;
+    height: 120px;
+    color: green;
+    padding-top: 25px;
+    background-color: rgb(202, 241, 202);
+}
+
+th, td {
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+}
+
+.TdCorner{
+    border: none;
+}
+
+.TdLeft{
+    border-left: none;
+}
+
+.TdRight{
+    border-right: none;
+}
+
+.TdTop{
+    border-top: none;
+}
+
+.TdBottom{
+    border-bottom: none;
+}
+
+.Cell{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.Circle {    
+  border-radius: 80px/80px;
+  border: solid 3px black;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+}
+
+.CircleSuccess {    
+  border-radius: 80px/80px;
+  border: solid 5px green;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease 0s;   
+}
+
+.CrossSuccess:after{
+  content: 'X';
+  color:green;        
+  font-size: 65px;  
+  transition: all 0.3s ease 0s; 
+}
+
+.Cross:after {    
+  content: 'X';
+  color:black;    
+  font-size: 50px; 
+}
+
+
+.Button {
+  background-color: rgb(49, 115, 236); 
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;    
+}
+
+.Button:hover {
+  background-color:green;
+  box-shadow: 0 5px 10px 0px #c3f1bd;
+  transform: translateY(-7px);
+}
